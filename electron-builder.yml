@@ -1,5 +1,5 @@
 appId: de.heaper.pog
-productName: pog
+productName: pogKeyCube
 directories:
   buildResources: build
 files:
@@ -12,7 +12,7 @@ asarUnpack:
   - resources/*
 afterSign: build/notarize.js
 win:
-  executableName: pog
+  executableName: pogKeyCube
   target:
     - target: portable
       arch:
